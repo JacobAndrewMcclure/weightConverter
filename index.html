@@ -8,12 +8,17 @@
 </head>
 <body>
     <h1>Pounds to kilograms</h1>
-
+    
     <p>Enter weight in pounds:</p>
-    <input type="text" placeholder="....">
-    <input type="button" value="Submit">
+    <!--Container to center input-->    
+    <div id="inputContainer">
+        <input type="text" placeholder="...." id="userWeight">
+        <input type="button" id="myBtn" value="Submit" onclick="calcWeight()">
+    </div>
+
     <p>Your weight in kilograms is:</p>
-    <p>xxxx</p>
+    <!--id to display converted weight-->
+    <p id="weightDisplay"></p>
 
     <script src=app.js></script>
 </body>

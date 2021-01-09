@@ -1,3 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
 h1 {
     text-align: center;
+    margin-bottom: 50px;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+#weightDisplay {
+    color: crimson;
+    font-size: 1.75em;
+    text-shadow: 1px 1px black;
+}
+#inputContainer {
+    display: flex;
+    justify-content: center;
+}
+#userWeight {
+    height: 25px;
+    margin-right: 10px;
 }
